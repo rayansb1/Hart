@@ -1,11 +1,19 @@
 .lifeHart{
   width: 35%;
   height: 50%;
-margin-top: 66%;
+margin-top: 11%;
 margin-left: 33%;
 animation: lifeHart .5s infinite alternate linear;
 }
-
+@media (max-width: 1024px)  {
+  .lifeHart{
+    width: 35%;
+    height: 50%;
+  margin-top: 66%;
+  margin-left: 33%;
+  animation: lifeHart .5s infinite alternate linear;
+  }
+}
 @keyframes lifeHart {
   from{
     transform: scale(.9);
