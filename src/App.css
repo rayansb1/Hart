@@ -1,0 +1,16 @@
+.lifeHart{
+  width:15%;
+  height:20%;
+margin-top:10%;
+margin-left:40%;
+animation: lifeHart .5s infinite alternate linear;
+}
+
+@keyframes lifeHart {
+  from{
+    transform: scale(.9);
+  }
+  to{
+    transform: scale(1);
+  }
+}
